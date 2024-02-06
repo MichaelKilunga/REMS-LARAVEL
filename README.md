@@ -9,8 +9,12 @@ PRIMARY INSTALLATION SETTINGS AND REQUIREMENTS
 3. composer version 2.6.6 above (I worked with 2.6.6)
 
    STEP BY STEP GUIDE OF INSTALLATION
-  i. Clone the repository
- ii. install composer (run=> composer install)
-iii. update composer (run=> composer update)
- iv. Set Database name = "emic-rems", username = "root", password = "", host = "localhost" in .env file
-  v. start the installation process
+   1. Clone the repository
+   2. Create branch to work withing, so that you won'nt affect the main branch in case of failures (run => git checkout -b name_of_your_branch), then you can work with your branch not    main, push changes to branch instead of main, then after validating working of your code, we can discus then merge your changes.
+   3. install composer (run=> composer install)
+   4. Update composer (run=> composer update)
+   5. Set Database name = "emic-rems", username = "root", password = "", host = "localhost" in .env file
+   6. Start the installation process
+
+#**Michael Kilunga**
+#**Project Manager**
