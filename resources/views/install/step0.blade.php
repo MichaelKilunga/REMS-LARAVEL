@@ -9,14 +9,14 @@
     			<!-- panel body -->
     			<div class="panel-body ins-four">
             <p class="ins-four">
-              {{ phrase('Welcome to Ekattor School Management System Installation. You will need to know the following items before proceeding.') }}
+              {{ phrase('Welcome to Real Estate Management System Installation. use the following informations.') }}
             </p>
             <ol>
-              <li>{{ phrase('Codecanyon purchase code') }}</li>
-              <li>{{ phrase('Database Name') }}</li>
-              <li>{{ phrase('Database Username') }}</li>
-              <li>{{ phrase('Database Password') }}</li>
-              <li>{{ phrase('Database Hostname') }}</li>
+              <li>{{ phrase('REMS purchase code: Free') }}</li>
+              <li>{{ phrase('Database Name: emic-rems') }}</li>
+              <li>{{ phrase('Database Username: root') }}</li>
+              <li>{{ phrase('Database Password: ') }}</li>
+              <li>{{ phrase('Database Hostname: localhost') }}</li>
             </ol>
             <p class="ins-four">
               {{ phrase('We are going to use the above information to write database.php file which will connect the application to your database.').' '.phrase('During the installation process, we will check if the files that are needed to be written') }}
