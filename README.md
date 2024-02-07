@@ -14,7 +14,7 @@ PRIMARY INSTALLATION SETTINGS AND REQUIREMENTS
    3. install composer (run=> composer install)
    4. Update composer (run=> composer update)
    5. Set Database name = "emic-rems", username = "root", password = "", host = "localhost" in .env file
-   6. Start the installation process
+   6. Start the installation process  run=> php artisan serve
 
 #**Michael Kilunga**
 #**Project Manager**
